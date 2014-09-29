@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		19B1A49319D934B700698532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A49219D934B700698532 /* AppDelegate.swift */; };
-		19B1A49519D934B700698532 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A49419D934B700698532 /* FirstViewController.swift */; };
-		19B1A49719D934B700698532 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A49619D934B700698532 /* SecondViewController.swift */; };
+		19B1A49519D934B700698532 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A49419D934B700698532 /* HomeViewController.swift */; };
+		19B1A49719D934B700698532 /* ArroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A49619D934B700698532 /* ArroundViewController.swift */; };
 		19B1A49A19D934B700698532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B1A49819D934B700698532 /* Main.storyboard */; };
 		19B1A49C19D934B700698532 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B1A49B19D934B700698532 /* Images.xcassets */; };
 		19B1A49F19D934B700698532 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19B1A49D19D934B700698532 /* LaunchScreen.xib */; };
 		19B1A4AB19D934B700698532 /* erhuoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A4AA19D934B700698532 /* erhuoTests.swift */; };
+		19B1A4B519D9369000698532 /* EhuoTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A4B419D9369000698532 /* EhuoTabbarController.swift */; };
+		19B1A4B719D9395800698532 /* EhuoTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B1A4B619D9395800698532 /* EhuoTabbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +32,16 @@
 		19B1A48D19D934B700698532 /* erhuo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = erhuo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B1A49119D934B700698532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19B1A49219D934B700698532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19B1A49419D934B700698532 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		19B1A49619D934B700698532 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		19B1A49419D934B700698532 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		19B1A49619D934B700698532 /* ArroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArroundViewController.swift; sourceTree = "<group>"; };
 		19B1A49919D934B700698532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19B1A49B19D934B700698532 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		19B1A49E19D934B700698532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		19B1A4A419D934B700698532 /* erhuoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = erhuoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B1A4A919D934B700698532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19B1A4AA19D934B700698532 /* erhuoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = erhuoTests.swift; sourceTree = "<group>"; };
+		19B1A4B419D9369000698532 /* EhuoTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EhuoTabbarController.swift; sourceTree = "<group>"; };
+		19B1A4B619D9395800698532 /* EhuoTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EhuoTabbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +83,11 @@
 		19B1A48F19D934B700698532 /* erhuo */ = {
 			isa = PBXGroup;
 			children = (
+				19B1A4B619D9395800698532 /* EhuoTabbar.swift */,
+				19B1A4B419D9369000698532 /* EhuoTabbarController.swift */,
 				19B1A49219D934B700698532 /* AppDelegate.swift */,
-				19B1A49419D934B700698532 /* FirstViewController.swift */,
-				19B1A49619D934B700698532 /* SecondViewController.swift */,
+				19B1A49419D934B700698532 /* HomeViewController.swift */,
+				19B1A49619D934B700698532 /* ArroundViewController.swift */,
 				19B1A49819D934B700698532 /* Main.storyboard */,
 				19B1A49B19D934B700698532 /* Images.xcassets */,
 				19B1A49D19D934B700698532 /* LaunchScreen.xib */,
@@ -215,9 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19B1A49719D934B700698532 /* SecondViewController.swift in Sources */,
+				19B1A4B719D9395800698532 /* EhuoTabbar.swift in Sources */,
+				19B1A49719D934B700698532 /* ArroundViewController.swift in Sources */,
 				19B1A49319D934B700698532 /* AppDelegate.swift in Sources */,
-				19B1A49519D934B700698532 /* FirstViewController.swift in Sources */,
+				19B1A49519D934B700698532 /* HomeViewController.swift in Sources */,
+				19B1A4B519D9369000698532 /* EhuoTabbarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

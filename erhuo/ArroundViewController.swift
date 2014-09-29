@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  erhuo
 //
 //  Created by Jerry Jiang on 14/9/29.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ArroundViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
